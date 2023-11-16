@@ -138,7 +138,7 @@
     "flow": "node ./scripts/tasks/flow.js",
     "flow-ci": "node ./scripts/tasks/flow-ci.js",
     "prettier": "npx prettier ./packages --write",
-    "biome:formatter": "npx prettier ./packages/** --write",
+    "biome:formatter": "npx @biomejs/biome format ./packages --write",
     "prettier:old": "node ./scripts/prettier/index.js write-changed",
     "prettier-all": "node ./scripts/prettier/index.js write",
     "version-check": "node ./scripts/tasks/version-check.js",

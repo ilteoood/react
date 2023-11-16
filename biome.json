@@ -1,14 +1,5 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.3.3/schema.json",
-  "files": {
-    "include": [
-      "packages/**/*.js",
-      "packages/**/*.jsx",
-      "packages/**/*.ts",
-      "packages/**/*.tsx",
-      "packages/**/*.json"
-    ]
-  },
 	"organizeImports": {
 		"enabled": true
 	},
